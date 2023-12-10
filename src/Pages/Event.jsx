@@ -6,7 +6,7 @@ import dots from "../assets/Vector_5.png";
 const Event = () => {
   return (
     <>
-      <div className="relative h-[200px] w-[200px]">
+      <div className="relative top-6 h-[200px] w-[200px]">
         <img src={event} alt="" className="w-full" />
 
         {/* star */}
