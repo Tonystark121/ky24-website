@@ -1,11 +1,12 @@
 import React from 'react'
+import AboutUs from './Components/AboutUs'
 
 function App() {
 
   return (
-    <>
-       <h1>Hello!!</h1>
-    </>
+    <div >
+       <AboutUs />
+    </div>
   )
 }
 
