@@ -1,6 +1,7 @@
 import React from "react";
 import People from "../Pages/People";
 import Event from "../Pages/Event";
+import Counter from "../Pages/Counter";
 // import Building from "../Pages/Building";
 
 const AboutUs = () => {
@@ -33,7 +34,7 @@ const AboutUs = () => {
                 <People />
               </div>
               <p id="counter" className="text-5xl font-bold">
-                70000+
+                <Counter targetNumber={70000} />
               </p>
               <p className="text-3xl">Footfall</p>
             </div>
@@ -42,7 +43,7 @@ const AboutUs = () => {
                 <Event />
               </div>
               <p id="counter" className="text-5xl font-bold">
-                70000+
+              <Counter targetNumber={60} />
               </p>
               <p className="text-3xl ">Footfall</p>
             </div>
@@ -51,7 +52,7 @@ const AboutUs = () => {
                 <Event />
               </div>
               <p id="counter" className="text-5xl font-bold">
-                70000+
+              <Counter targetNumber={30} />
               </p>
               <p className="text-3xl ">Footfall</p>
             </div>
