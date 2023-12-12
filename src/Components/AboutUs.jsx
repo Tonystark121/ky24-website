@@ -2,7 +2,7 @@ import React from "react";
 import People from "../Pages/People";
 import Event from "../Pages/Event";
 import Counter from "../Pages/Counter";
-// import Building from "../Pages/Building";
+import Building from "../Pages/Building";
 
 const AboutUs = () => {
   return (
@@ -40,7 +40,7 @@ const AboutUs = () => {
             </div>
             <div className="flex flex-col p-5 justify-center items-center md:flex-1">
               <div className="mb-4 md:w-[150px] lg:w-[200px]">
-                <Event />
+                <Building />
               </div>
               <p id="counter" className="text-5xl font-bold">
               <Counter targetNumber={60} />
