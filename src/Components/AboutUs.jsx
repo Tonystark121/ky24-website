@@ -43,18 +43,18 @@ const AboutUs = () => {
                 <Building />
               </div>
               <p id="counter" className="text-5xl font-bold">
-              <Counter targetNumber={60} />
+              <Counter targetNumber={360} />
               </p>
-              <p className="text-3xl ">Footfall</p>
+              <p className="text-3xl ">Colleges</p>
             </div>
             <div className="flex flex-col p-5 justify-center items-center md:flex-1">
               <div className="mb-4 md:w-[150px] lg:w-[200px]">
                 <Event />
               </div>
               <p id="counter" className="text-5xl font-bold">
-              <Counter targetNumber={30} />
+              <Counter targetNumber={60} />
               </p>
-              <p className="text-3xl ">Footfall</p>
+              <p className="text-3xl ">Events</p>
             </div>
           </div>
         </div>
